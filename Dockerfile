@@ -1,5 +1,5 @@
 ARG BUILDTIME_BASE=golang:1-alpine
-ARG RUNTIME_BASE=alpine:latest
+ARG RUNTIME_BASE=alpine:3.18.3
 FROM ${BUILDTIME_BASE} as builder
 ENV BUILD_IN_DOCKER=false
 
